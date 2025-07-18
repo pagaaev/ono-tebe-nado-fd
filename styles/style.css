@@ -41,6 +41,9 @@ header {
     font-size: 18px;
     line-height: 100%;
     letter-spacing: 0%;
+
+    text-decoration: underline;
+    text-underline-offset: 4px;
 }
 
 .header__link_active {
@@ -60,10 +63,10 @@ header {
     padding: 95px 50px 100px 184px;
     font-style: inherit;
     display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+}
 
 .header__address {
-    
     text-decoration: none;
     font-family: Raleway;
     font-weight: 400;
@@ -104,7 +107,7 @@ header {
     z-index: 1;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 32px;
     width: 100%;
 
     font-family: Raleway;
@@ -143,7 +146,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 106px 0 0 0;
+    padding: 132px 0 0 5px;
 }
 
 .cover__description-text {
@@ -366,7 +369,8 @@ header {
 .address-footer {
     font-style: inherit;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+}
 
 .footer__menu-list {
   text-align: center;
