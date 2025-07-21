@@ -228,6 +228,7 @@
 
 .card-item {
     height: 100%;
+    text-decoration: none;
 }
 
 .card-item_content {
