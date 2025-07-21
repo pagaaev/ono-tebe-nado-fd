@@ -67,15 +67,16 @@
 }
 
 /* исправил блок с адресом */
+/* указал стиль нормальным */
 
 .address {
     padding: 95px 50px 100px 184px;
-    font-style: inherit;
+    font-style: normal;
     display: flex;
     flex-direction: column;
 }
 
-.header__address {
+.address__link {
     font-family: Raleway, Arial, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -83,7 +84,7 @@
     line-height: 24.3px;
 }
 
-.header__address-item {
+.address__item {
     display: block;
     line-height: 1.35;
     text-underline-position: under;
